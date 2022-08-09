@@ -44,6 +44,7 @@ const material = new THREE.MeshNormalMaterial( {
 } );
 const cube = new THREE.Mesh( geometry, material );
 cube.position.y= geometry.parameters.height / 1;
+cube.position.z=2;
 
 scene.add( cube );
 
